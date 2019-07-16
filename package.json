@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.0.2",
+    "bluebird": "^3.5.5",
+    "lru-cache": "^5.1.1",
+    "mississippi": "^4.0.0",
+    "promise-inflight": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "ssri": "^6.0.1",
+    "unique-filename": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
