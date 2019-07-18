@@ -20,6 +20,7 @@ ReactDOM.render(
     domain={config.domain}
     client_id={config.clientId}
     redirect_uri={window.location.origin + "/callback"}
+    audience={config.audience} //For API authorization
     onRedirectCallback={onRedirectCallback}
   >
     <App />
