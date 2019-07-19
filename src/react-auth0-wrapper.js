@@ -35,7 +35,6 @@ export const Auth0Provider = ({
         const user = await auth0FromHook.getUser();
         setUser(user);
       }
-        console.log("EXTRACTED_TOKEN (^_^): ", await auth0FromHook.getTokenSilently());
       setLoading(false);
     };
     initAuth0();
