@@ -7,7 +7,7 @@
     "bluebird": "^3.5.5",
     "chownr": "^1.1.2",
     "express": "^4.17.1",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "jwks-rsa": "^1.6.0",
     "lru-cache": "^5.1.1",
     "mississippi": "^4.0.0",
